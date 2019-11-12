@@ -2,10 +2,12 @@ import React from 'react';
 import './App.css';
 
 // CSS
-import './css/resume.css'
+import './css/resume.css';
 
 // Components
-import Nav from './components/Nav'
+import Nav from './components/Nav';
+
+// import './js/resume';
 
 function App() {
   return (
