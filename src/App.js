@@ -6,6 +6,7 @@ import './css/resume.css';
 
 // Components
 import Nav from './components/Nav';
+import Penguin from './components/Penguin';
 
 // import './js/resume';
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Penguin />
 
       <div class="container-fluid p-0">
 
