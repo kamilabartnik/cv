@@ -1,10 +1,7 @@
 .penguin {
-
-  /* change code below */
   --penguin-skin: gray;
   --penguin-belly: white;
   --penguin-beak: orange;
-  /* change code above */
 
   position: relative;
   margin: auto;
@@ -164,10 +161,6 @@
   width: 16%;
   height: 10%;
   border-radius: 50%;
-}
-
-body {
-  background:#c6faf1;
 }
 
 .penguin * {

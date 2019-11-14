@@ -8,11 +8,10 @@
 
   @media (max-width: 350px) {
     :root {
-
-      /* add code below */
-
-      /* add code above */
-
+      --penguin-size: 300px;
+      --penguin-skin: gray;
+      --penguin-belly: white;
+      --penguin-beak: orange;
     }
   }
 
@@ -195,10 +194,6 @@
     width: 16%;
     height: 10%;
     border-radius: 50%;
-  }
-
-  body {
-    background:#c6faf1;
   }
 
   .wpenguin * {
