@@ -8,6 +8,7 @@ import './css/resume.css';
 import Nav from './components/Nav';
 import Penguin from './components/Penguin';
 import PenguinWave from './components/PenguinWave';
+import Survey from './components/components/Survey';
 
 // import './js/resume';
 
@@ -17,6 +18,7 @@ function App() {
       <Nav />
       <Penguin />
       <PenguinWave />
+      <Survey />
 
       <div class="container-fluid p-0">
 
