@@ -5,10 +5,11 @@ import './App.css';
 import './css/resume.css';
 
 // Components
-import Nav from './components/Nav';
-import Penguin from './components/Penguin';
+// import Nav from './components/Nav';
+// import Penguin from './components/Penguin';
+// import Survey from './components/components/Survey';
+import Navbar from './components/Navbar';
 import PenguinWave from './components/PenguinWave';
-import Survey from './components/components/Survey';
 
 // import './js/resume';
 
@@ -17,10 +18,10 @@ function App() {
     <div className="App">
       {/* <Nav />
       <Penguin />
-      <PenguinWave />
-      <Survey /> */}
-
       
+      <Survey /> */}
+      <Navbar />
+      <PenguinWave /> 
     </div>
   );
 }

@@ -16,7 +16,7 @@
   }
 
   .wpenguin {
-    position: relative;
+    position: absolute;
     margin: auto;
     display: block;
     margin-top: 5%;
