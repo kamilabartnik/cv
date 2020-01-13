@@ -10,18 +10,18 @@ function Navbar() {
       <Header title="Title" scroll>
           <Navigation>
               
-              <a href="/myresume">Resume</a>
-              <a href="/cv/aboutme">About Me</a>
-              <a href="/cv/portfolio">Potrfolio</a>
-              <a href="/cv/contact">Contact</a>
+              <a href="/cv/#/myresume/">Resume</a>
+              <a href="/cv/#//aboutme">About Me</a>
+              <a href="/cv/#//portfolio">Potrfolio</a>
+              <a href="/cv/#//contact">Contact</a>
           </Navigation>
       </Header>
       <Drawer title="Title">
           <Navigation>
-            <a href="/cv/myresume">Resume</a>
-              <a href="/cv/aboutme">About Me</a>
-              <a href="/cv/portfolio">Potrfolio</a>
-              <a href="/cv/contact">Contact</a>
+            <a href="/cv/#//myresume">Resume</a>
+              <a href="/cv/#//aboutme">About Me</a>
+              <a href="/cv/#//portfolio">Potrfolio</a>
+              <a href="/cv/#//contact">Contact</a>
           </Navigation>
       </Drawer>
       <Content>
