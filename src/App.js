@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Main from './components/main';
 
 // CSS
 import './css/resume.css';
@@ -10,7 +9,7 @@ import './css/resume.css';
 // import Penguin from './components/Penguin';
 // import Survey from './components/components/Survey';
 import Navbar from './components/Navbar';
-import PenguinWave from './components/PenguinWave';
+
 
 // import './js/resume';
 
@@ -22,7 +21,7 @@ function App() {
       
       <Survey /> */}
       <Navbar />
-      <PenguinWave /> 
+      
     </div>
   );
 }

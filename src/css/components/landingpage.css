@@ -1,3 +1,8 @@
+.landing {
+  --back: rgb(216, 216, 216);
+  --font:  rgb(22, 22, 22);
+}
+
 .langing-grid {
   background: #0f0c29;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
@@ -6,9 +11,42 @@
 }
 
 .avatar-image {
+  height: 260px;
+  padding: 4em;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.landing-banner{
+  background-color: var(--back, rgb(216, 216, 216));
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.banner-text {
+  font-size: 40px;
+  font-weight: bold;
+  color:  rgb(22, 22, 22);
+}
+
+.landing-banner hr {
+  border-top: 5px dotted var(--font, rgb(22, 22, 22));
+  opacity: .5;
+  width: 50%;
+  margin: auto;
+}
+
+.landing-banner p {
+  color: var(--font, rgb(22, 22, 22));
+  font-size: 20px;
+  padding: 1em;
 }

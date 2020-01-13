@@ -1,19 +1,25 @@
 import React, {Component} from 'react';
 import '../../css/components/landingpage.css';
 import {Grid, Cell} from 'react-mdl';
-import image from '../../assets/KamilaBartnik.jpg'
 
 class Landing extends Component {
   render() {
     return (
       <div className="landing-page">
-        <Grid className="langing-grid">
+        <Grid className="landing-page langing-grid">
           <Cell col={12}>
             <img 
-              src="cv/src/assets/KamilaBartnik.jpg"
+              src="https://github.com/kamilabartnik/cv/blob/master/src/assets/KamilaBartnik.jpg?raw=true"
               alt="avatar"
-              className="avatar-image"
+              className="landing-page avatar-image"
             />
+            <div className="landing-page landing-banner">
+              <h1 className="landing-page landing-banner banner-text">Junior Front-end Developer</h1>
+              <hr />
+              <p>
+                HTML/CSS | Bootstrap | JavaScript | ReactJS | Java | VueJS
+              </p>
+            </div>
           </Cell>
         </Grid>
       </div>

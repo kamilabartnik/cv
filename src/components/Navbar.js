@@ -6,7 +6,7 @@ import '../css/navbar.css';
 
 function Navbar() {
   return (
-    <div className="demo-big-content">
+    <div className="navigation-content">
     <Layout className="navigation">
       <Header className="navigation header" title="Title" scroll>
           <Navigation className="navigation bar">
