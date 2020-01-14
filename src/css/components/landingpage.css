@@ -1,18 +1,19 @@
-.landing {
+.landing-page {
   --back: rgb(216, 216, 216);
   --font:  rgb(22, 22, 22);
 }
 
 .langing-grid {
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  width: 100vw;
 }
 
 .avatar-image {
-  height: 260px;
-  padding: 4em;
+  height: 270px;
+  padding: 6em;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -49,4 +50,17 @@
   color: var(--font, rgb(22, 22, 22));
   font-size: 20px;
   padding: 1em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin:auto;
+  }
+
+.social-links a {
+  color: var(--font, rgb(22, 22, 22));
+  font-size: 4em;
+  padding: 8px;
 }

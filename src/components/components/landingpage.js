@@ -19,6 +19,21 @@ class Landing extends Component {
               <p>
                 HTML/CSS | Bootstrap | JavaScript | ReactJS | Java | VueJS
               </p>
+              <div className="social-links">
+
+                {/* Linkedin */}
+                <a href="https://www.linkedin.com/in/kamila-bartnik-01667a18/" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+                {/* GitHub */}
+                <a href="https://github.com/kamilabartnik" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+                {/* FreeCodeCamp */}
+                <a href="https://www.freecodecamp.org/kamilabartnik" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
