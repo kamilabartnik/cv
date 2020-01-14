@@ -10,6 +10,7 @@ class Portfolio extends Component {
   toggleCategories(){
     if(this.state.activeTab === 0){
       return (
+        <div>
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
@@ -28,6 +29,25 @@ class Portfolio extends Component {
             <IconButton name="share" />
           </CardMenu>
         </Card>
+        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <CardTitle style={{
+            color: '#fff', height: '176px',
+            background: 'url(https://create-react-app.dev/img/logo-og.png) center / cover'
+          }}>
+            React for Fun
+          </CardTitle>
+          <CardText>
+            Project made when learning React. Contains some easy pages, games and calculator.
+          </CardText>
+          <CardActions border>
+            <Button colored><a href="https://github.com/kamilabartnik/react_fun">GitHub</a></Button>
+            <Button colored><a href="https://kamilabartnik.github.io/react_fun/">GitHub Pages</a></Button>
+          </CardActions>
+          <CardMenu style={{ color: '#fff' }}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+        </div>
       )
     } else if(this.state.activeTab === 1){
       return(
