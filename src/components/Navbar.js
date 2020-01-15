@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="navigation-content">
     <Layout className="navigation">
-      <Header className="navigation header" title="Title" scroll>
+      <Header className="navigation header" title="Kamila Bartnik Resume" scroll>
           <Navigation className="navigation bar">
               <a className="navigation bar a" href="/cv/#/myresume/">Resume</a>
               <a className="navigation bar a" href="/cv/#/aboutme/">About Me</a>
