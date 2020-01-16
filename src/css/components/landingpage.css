@@ -66,3 +66,19 @@
   font-size: 4em;
   padding: 8px;
 }
+
+@media (max-width: 500px) {
+  .avatar-image {
+    height: 250px;
+    padding: 1em;
+  }
+  .banner-text {
+    font-size: 35px;
+    padding: 0.5em;
+    font-weight: bold;
+  }
+  .social-links{
+    justify-content: center;
+    }
+  
+}

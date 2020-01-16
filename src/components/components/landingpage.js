@@ -14,10 +14,10 @@ class Landing extends Component {
               className="landing-page avatar-image"
             />
             <div className="landing-page landing-banner">
-              <h1 className="landing-page landing-banner banner-text">Junior Front-end Developer</h1>
+              <h1 className="landing-page landing-banner banner-text">Junior <br />Front-end Developer</h1>
               <hr />
               <p>
-                HTML/CSS | Bootstrap | JavaScript | ReactJS | Java | VueJS
+                HTML/CSS | Bootstrap | JavaScript | ReactJS <br /> | Java | VueJS
               </p>
               <div className="social-links">
 

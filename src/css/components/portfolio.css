@@ -9,3 +9,21 @@
   padding-top: 9vh;
   display: flex;
 }
+.mdl-card{
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .category-tabs {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    padding-top: 35px;
+    margin: auto;
+  }
+  .projects-grid{
+    padding: 0px;
+    display: inline-block;
+  }
+
+}
