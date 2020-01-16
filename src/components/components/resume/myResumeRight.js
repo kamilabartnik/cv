@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Skills from './skills';
 
 class MyResumeRight extends Component {
   render() {
@@ -14,18 +14,25 @@ class MyResumeRight extends Component {
           </div>
           <h2 style={{ paddingTop: '1em' }}>Kamila Bartnik</h2>
           <h4 style={{ color: 'grey' }}> Programmer </h4>
-          <hr style={{ borderTop: '3px solid #833fb2', width: '70%' }} />
+          <hr style={{ borderTop: '3px solid #2f222f', width: '70%' }} />
           <p>
-            Mądre rzeczy o mnie
+          <Skills
+          skill="Creativity"
+          progress={95}
+        />
+        <Skills
+          skill="Self Motivation"
+          progress={86}
+        />
             </p>
-          <hr style={{ borderTop: '3px solid #833fb2', width: '70%' }} />
+          <hr style={{ borderTop: '3px solid #2f222f', width: '70%' }} />
           <h5>Adress</h5>
           <p>Poznań</p>
           <h5>Phone</h5>
           <p>505 998 053</p>
           <h5>Email</h5>
           <p>kbartnik@g.pl</p>
-          <hr style={{ borderTop: '3px solid #833fb2', width: '70%' }} />
+          <hr style={{ borderTop: '3px solid #2f222f', width: '70%' }} />
         </div>
     )
   }
