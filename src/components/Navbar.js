@@ -1,5 +1,5 @@
 import React from 'react';
-import {Layout, Header, Drawer, Navigation, Content} from 'react-mdl';
+import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import Main from './main';
 import '../css/navbar.css';
 
@@ -7,29 +7,30 @@ import '../css/navbar.css';
 function Navbar() {
   return (
     <div className="navigation-content">
-    <Layout className="navigation">
-      <Header className="navigation header" title="Kamila Bartnik Resume" scroll>
+      <Layout className="navigation">
+        <Header className="navigation header" title="Kamila Bartnik Resume" scroll>
           <Navigation className="navigation bar">
-              <a className="navigation bar a" href="/cv/#/myresume/">Resume</a>
-              <a className="navigation bar a" href="/cv/#/aboutme/">About Me</a>
-              <a className="navigation bar a" href="/cv/#/portfolio/">Potrfolio</a>
-              <a className="navigation bar a" href="/cv/#/contact/">Contact</a>
+            <a className="navigation bar a" href="/cv/">About Me</a>
+            <a className="navigation bar a" href="/cv/#/myresume/">Resume</a>
+
+            <a className="navigation bar a" href="/cv/#/portfolio/">Potrfolio</a>
+            <a className="navigation bar a" href="/cv/#/contact/">Contact</a>
           </Navigation>
-      </Header>
-      <Drawer title="Title">
+        </Header>
+        <Drawer title="Title">
           <Navigation>
             <a href="/cv/#/myresume/">Resume</a>
-              <a href="/cv/#/aboutme/">About Me</a>
-              <a href="/cv/#/portfolio/">Potrfolio</a>
-              <a href="/cv/#/contact/">Contact</a>
+            <a href="/cv/">About Me</a>
+            <a href="/cv/#/portfolio/">Potrfolio</a>
+            <a href="/cv/#/contact/">Contact</a>
           </Navigation>
-      </Drawer>
-      <Content>
+        </Drawer>
+        <Content>
           <div className="page-content" />
           <Main />
-      </Content>
-    </Layout>
-  </div>
+        </Content>
+      </Layout>
+    </div>
   )
 }
 
