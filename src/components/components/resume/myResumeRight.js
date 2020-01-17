@@ -1,41 +1,71 @@
 import React, { Component } from 'react';
+import Education from './education';
+import Experience from './experience';
 import Skills from './skills';
 
-class MyResumeRight extends Component {
+
+class MyResumeLeft extends Component {
   render() {
     return (
-        <div>
-          <div style={{ textAlign: 'center' }}>
-            <img
-              src="https://github.com/kamilabartnik/cv/blob/master/src/assets/KamilaBartnik.jpg?raw=true"
-              alt="avatar"
-              style={{ height: '200px', paddingTop: '2em' }}
-            />
-          </div>
-          <h2 style={{ paddingTop: '1em' }}>Kamila Bartnik</h2>
-          <h4 style={{ color: 'grey' }}> Programmer </h4>
-          <hr style={{ borderTop: '3px solid #2f222f', width: '70%' }} />
-          <p>
-          <Skills
-          skill="Creativity"
-          progress={95}
+      <div style={{ textAlign: 'left' }}>
+
+        <h4 style={{ paddingLeft: '8px' }}>Experience</h4>
+        <Experience
+          startYear={2019}
+          endYear='present'
+          workName='Stowarzyszenie mali bracia Ubogich'
+          position='volunteer'
+          workDescription='Coorganization workshops and helping lonely elderly people'
+        />
+        <Experience
+          startYear={2012}
+          endYear={2019}
+          workName='GOSU - boardgames'
+          position='founder'
+          workDescription='GOSU is a meeting place with boardgames, where you can buy, rent or play games. 
+                          Due to my hard work, GOSU became well-known bordgames brand not only in Poznań. 
+                          '
+        />
+        <Experience
+          startYear={2012}
+          endYear={2012}
+          workName='BDSklep'
+          position='marketing trainee'
+          workDescription='I was responsible for newsletters (prepared content and HTML structure), BDsklep&rsquo;s website testing and marketing activities.'
+        />
+        <hr style={{ borderTop: '3px solid #e22947' }} />
+        <h4 style={{ paddingLeft: '8px' }}>Skills (in progress)</h4>
+
+        <Skills
+          skill="HTML/CSS"
+          progress={78}
+          buffer={22}
         />
         <Skills
-          skill="Self Motivation"
-          progress={86}
+          skill="JavaScript"
+          progress={68}
+          buffer={60}
         />
-            </p>
-          <hr style={{ borderTop: '3px solid #2f222f', width: '70%' }} />
-          <h5>Adress</h5>
-          <p>Poznań</p>
-          <h5>Phone</h5>
-          <p>505 998 053</p>
-          <h5>Email</h5>
-          <p>kbartnik@g.pl</p>
-          <hr style={{ borderTop: '3px solid #2f222f', width: '70%' }} />
-        </div>
+        <Skills
+          skill="React"
+          progress={68}
+        />
+        <Skills
+          skill="VueJS"
+          progress={25}
+        />
+
+        <hr style={{ borderTop: '3px solid #e22947' }} />
+        <h4 style={{ paddingLeft: '8px' }}>Education</h4>
+        <Education
+          startYear={2006}
+          endYear={2011}
+          schoolName="Poznań University of Economic and Business"
+          schoolDescription="Informatics and Econometrics, Master Degree"
+        />
+      </div>
     )
   }
 }
 
-export default MyResumeRight;
+export default MyResumeLeft;

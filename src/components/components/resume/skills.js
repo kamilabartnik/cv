@@ -11,7 +11,7 @@ class Skills extends Component {
             <ProgressBar 
             style={{margin: 'auto'}}
             
-            progress={this.props.progress} buffer={98}/>
+            progress={this.props.progress} buffer={0}/>
           </Cell>
         </Grid>
       </div>

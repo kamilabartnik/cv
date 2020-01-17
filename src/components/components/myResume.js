@@ -11,10 +11,10 @@ class MyResume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <MyResumeRight />
+            <MyResumeLeft />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <MyResumeLeft />
+            <MyResumeRight />
           </Cell>
         </Grid>
       </div>

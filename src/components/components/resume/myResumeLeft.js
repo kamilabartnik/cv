@@ -1,64 +1,52 @@
 import React, { Component } from 'react';
-import Education from './education';
-import Experience from './experience';
 import Skills from './skills';
 
-
-class MyResumeLeft extends Component {
+class MyResumeRight extends Component {
   render() {
     return (
-      <div style={{ textAlign: 'left' }}>
-
-        <h4 style={{ paddingLeft: '8px' }}>Experience</h4>
-        <Experience
-          startYear={2019}
-          endYear='present'
-          workName='Stowrzyszenie mali bracia Ubogich'
-          workDescription='Helping with meeting in organization and visiting lonely elderly people'
-        />
-        <Experience
-          startYear={2012}
-          endYear={2019}
-          workName='GOSU - boardgames, Owner'
-          workDescription='I was doing everything :D'
-        />
-        <Experience
-          startYear={2012}
-          endYear={2012}
-          workName='BDSklep, Marketing Trainee'
-          workDescription='I was doing almost everything :D'
-        />
-        <hr style={{ borderTop: '3px solid #e22947' }} />
-        <h4 style={{ paddingLeft: '8px' }}>Skills</h4>
-
-        <Skills
-          skill="HTML/CSS"
-          progress={78}
-        />
-        <Skills
-          skill="JavaScript"
-          progress={68}
-        />
-        <Skills
-          skill="React"
-          progress={68}
-        />
-        <Skills
-          skill="VueJS"
-          progress={25}
-        />
-
-        <hr style={{ borderTop: '3px solid #e22947' }} />
-        <h4 style={{ paddingLeft: '8px' }}>Education</h4>
-        <Education
-          startYear={2006}
-          endYear={2011}
-          schoolName="Poznań University of Economic and Business"
-          schoolDescription="Informatics and Econometrics, Master Degree"
-        />
+      <div>
+        <div style={{ textAlign: 'center' }}>
+          <img
+            src="https://github.com/kamilabartnik/cv/blob/master/src/assets/KamilaBartnik.jpg?raw=true"
+            alt="avatar"
+            style={{ height: '200px', paddingTop: '2em' }}
+          />
+        </div>
+        <h2 style={{ paddingTop: '0.5em' }}>Kamila Bartnik</h2>
+        <h4 style={{ color: 'grey' }}> Programmer </h4>
+        <hr style={{ borderTop: '3px solid #2f222f', width: '100%' }} />
+        <p>
+          After 7 years of creating my own tabletop games brand,
+          I decided to came back to subject related to my education
+          and restarted learning programming languages. Through Java
+          and Vue.js I discovered ReactJS which stole my heart.
+          </p>
+        <hr style={{ borderTop: '3px solid #2f222f', width: '100%' }} />
+        <p>
+          <Skills
+            skill="Creativity"
+            progress={95}
+          />
+          <Skills
+            skill="Social skills"
+            progress={92}
+          />
+          <Skills
+            skill="Self Motivation"
+            progress={92}
+          />
+        </p>
+        <hr style={{ borderTop: '3px solid #2f222f', width: '100%' }} />
+        <h5>Adress</h5>
+        <p>Poznań</p>
+        <h5>Phone</h5>
+        <p>505 998 053</p>
+        <h5>Email</h5>
+        <p>kbartnik@g.pl</p>
+        <hr style={{ borderTop: '3px solid #2f222f', width: '100%' }} />
       </div>
     )
   }
 }
 
-export default MyResumeLeft;
+export default MyResumeRight;

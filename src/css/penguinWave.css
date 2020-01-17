@@ -19,7 +19,7 @@
     position: absolute;
     margin: auto;
     display: block;
-    margin-top: 5%;
+    margin-top: 0.5%;
     width: var(--penguin-size, 300px);
     height: var(--penguin-size, 300px);
   }
