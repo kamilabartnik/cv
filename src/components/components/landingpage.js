@@ -17,7 +17,7 @@ class Landing extends Component {
               <h1 className="landing-page landing-banner banner-text">Junior <br />Front-end Developer</h1>
               <hr />
               <p>
-                HTML/CSS | Bootstrap | JavaScript | ReactJS <br /> | Java | VueJS
+                HTML/CSS&nbsp;|&nbsp;Bootstrap | JavaScript&nbsp;|&nbsp;ReactJS | Java&nbsp;|&nbsp;VueJS
               </p>
               <div className="social-links">
 

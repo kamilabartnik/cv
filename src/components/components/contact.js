@@ -14,13 +14,13 @@ class Contact extends Component {
             <img src="https://github.com/kamilabartnik/cv/blob/master/src/assets/KamilaBartnik.jpg?raw=true"
               alt="avatar"
                />
-            <p style={{ width: '70%', margin: 'auto', paddingTop: '1.5em' }}>
+            <p style={{ width: '70%', margin: 'auto', paddingTop: '1em' }}>
               After almost 7 years of making my own buisness I wanna help you with yours ;)
               </p>
           </Cell>
           <Cell col={6}>
             <h2> Contact Me </h2>
-            <hr />
+            {/* <hr /> */}
 
             <div className="contact-list">
               <List>           
@@ -33,7 +33,9 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent className="contact-list__list-item" icon="mail">kbartnik@g.pl</ListItemContent>
                 </ListItem>
-     
+                <ListItem>
+                  <ListItemContent className="contact-list__list-item" icon="linkedin"><a href="https://www.linkedin.com/in/kamila-bartnik-01667a18/" target="_blank" style={{textDecoration:'none', color: 'black'}}>LinkedIn</a> </ListItemContent>
+                </ListItem>
               </List>
             </div>
           </Cell>

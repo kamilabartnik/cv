@@ -23,8 +23,10 @@ class MyResumeLeft extends Component {
           workName='GOSU - boardgames'
           position='founder'
           workDescription='GOSU is a meeting place with boardgames, where you can buy, rent or play games. 
-                          Due to my hard work, GOSU became well-known bordgames brand not only in Poznań. 
-                          '
+                          Due to my hard work, GOSU became well-known bordgames brand not only in Poznań,
+                          GOSU won plebiscite for The Best Place in Poznań by poznan.naszemiasto.pl in 2015.
+                          Runing my own business helps me understand how free market works, trained my social 
+                          skills by working with clients and employees and organization skill.'
         />
         <Experience
           startYear={2012}

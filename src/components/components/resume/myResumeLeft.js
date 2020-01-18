@@ -44,6 +44,8 @@ class MyResumeRight extends Component {
         <h5>Email</h5>
         <p>kbartnik@g.pl</p>
         <hr style={{ borderTop: '3px solid #2f222f', width: '100%' }} />
+        <h5>Hobbies</h5>
+        <p> boardgames, books (especially popular science), hand craft, ukulele, irish dance, pole dance</p>
       </div>
     )
   }
