@@ -94,10 +94,10 @@ class Portfolio extends Component {
         <div className="projects-grid">
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
-            color: '#000', height: '176px',
-            background: 'url(https://www.kindpng.com/picc/m/78-787343_html5-css-javascript-html-css-js-icon-hd.png) center / cover'
+            color: '#fff', height: '176px',
+            background: 'url(https://i.udemycdn.com/course/750x422/792484_cc98_3.jpg) center / cover'
           }}>
-            Poznańska Liga Terraformacji Marsa
+            Liga Terraformacji Marsa
           </CardTitle>
           <CardText>
             Site for Poznan Terraforming Mars League.
@@ -112,13 +112,13 @@ class Portfolio extends Component {
         </Card>
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
-            color: '#000', height: '176px',
-            background: 'url(https://www.kindpng.com/picc/m/78-787343_html5-css-javascript-html-css-js-icon-hd.png) center / cover'
+            color: '#fff', height: '176px',
+            background: 'url(https://i.udemycdn.com/course/750x422/792484_cc98_3.jpg) center / cover'
           }}>
             Kamila Bartnik CV
           </CardTitle>
           <CardText>
-            Earlier CV.
+            Former CV.
           </CardText>
           <CardActions border>
             <Button colored><a href="https://github.com/kamilabartnik/kamilabartnik.github.io">GitHub</a></Button>

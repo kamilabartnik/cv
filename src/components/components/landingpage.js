@@ -14,7 +14,7 @@ class Landing extends Component {
               className="landing-page avatar-image"
             />
             <div className="landing-page landing-banner">
-              <h1 className="landing-page landing-banner banner-text">Junior <br />Front-end Developer</h1>
+              <h1 className="landing-page landing-banner banner-text">Junior Front-end&nbsp;Developer</h1>
               <hr />
               <p>
                 HTML/CSS&nbsp;|&nbsp;Bootstrap | JavaScript&nbsp;|&nbsp;ReactJS | Java&nbsp;|&nbsp;VueJS

@@ -15,7 +15,7 @@ class Contact extends Component {
               alt="avatar"
                />
             <p style={{ width: '70%', margin: 'auto', paddingTop: '1em' }}>
-              After almost 7 years of making my own buisness I wanna help you with yours ;)
+              After almost 7 years of making my own business I wanna help you with yours ;)
               </p>
           </Cell>
           <Cell col={6}>
