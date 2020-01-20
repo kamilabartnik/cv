@@ -25,7 +25,7 @@ class Portfolio extends Component {
           </CardText>
           <CardActions border>
             <Button colored><a href="https://github.com/kamilabartnik/react_fun">GitHub</a></Button>
-            <Button colored><a href="https://kamilabartnik.github.io/react_fun/">GitHub Pages</a></Button>
+            <Button colored><a href="https://kamilabartnik.github.io/react_fun/#/sps">GitHub Pages</a></Button>
           </CardActions>
           <CardMenu style={{ color: '#fff' }}>
             <IconButton name="share" />
