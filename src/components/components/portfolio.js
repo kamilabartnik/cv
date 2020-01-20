@@ -17,7 +17,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://create-react-app.dev/img/logo-og.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/react.png?raw=true) center / cover'
           }}>
             React for Fun
           </CardTitle>
@@ -35,7 +35,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://create-react-app.dev/img/logo-og.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/react.png?raw=true) center / cover'
           }}>
             Admin site project
           </CardTitle>
@@ -52,7 +52,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#000', height: '176px',
-            background: 'url(https://cdn.auth0.com/blog/logos/vuejs-logo.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/vuejs-logo.png?raw=true) center / cover'
           }}>
             Learning VueJS with Max
           </CardTitle>
@@ -71,7 +71,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#000', height: '176px',
-            background: 'url(https://cdn.auth0.com/blog/logos/vuejs-logo.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/vuejs-logo.png?raw=true) center / cover'
           }}>
             Quiz generator
           </CardTitle>
@@ -88,12 +88,12 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://i.udemycdn.com/course/750x422/792484_cc98_3.jpg) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/htmlcss.jpg?raw=true) center / cover'
           }}>
             Liga Terraformacji Marsa
           </CardTitle>
           <CardText>
-            Site for Poznan Terraforming Mars League.
+            Site for Poznan Terraforming Mars League with ranking, few info and minigame.
           </CardText>
           <CardActions border>
             <Button colored><a href="https://github.com/kamilabartnik/terraformacja">GitHub</a></Button>
@@ -106,12 +106,12 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://i.udemycdn.com/course/750x422/792484_cc98_3.jpg) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/htmlcss.jpg?raw=true) center / cover'
           }}>
             Kamila Bartnik CV
           </CardTitle>
           <CardText>
-            Former CV.
+            Former CV made using basic HTML and CSS showing few projects.
           </CardText>
           <CardActions border>
             <Button colored><a href="https://github.com/kamilabartnik/kamilabartnik.github.io">GitHub</a></Button>
@@ -130,7 +130,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://create-react-app.dev/img/logo-og.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/react.png?raw=true) center / cover'
           }}>
             React for Fun
           </CardTitle>
@@ -148,7 +148,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://create-react-app.dev/img/logo-og.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/react.png?raw=true) center / cover'
           }}>
             Admin site project
           </CardTitle>
@@ -170,7 +170,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#000', height: '176px',
-            background: 'url(https://cdn.auth0.com/blog/logos/vuejs-logo.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/vuejs-logo.png?raw=true) center / cover'
           }}>
             Learning VueJS with Max
           </CardTitle>
@@ -187,7 +187,7 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#000', height: '176px',
-            background: 'url(https://cdn.auth0.com/blog/logos/vuejs-logo.png) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/vuejs-logo.png?raw=true) center / cover'
           }}>
             Quiz generator
           </CardTitle>
@@ -209,12 +209,12 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://i.udemycdn.com/course/750x422/792484_cc98_3.jpg) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/htmlcss.jpg?raw=true) center / cover'
           }}>
             Liga Terraformacji Marsa
           </CardTitle>
           <CardText>
-            Site for Poznan Terraforming Mars League.
+          Site for Poznan Terraforming Mars League with ranking, few info and minigame.
           </CardText>
           <CardActions border>
             <Button colored><a href="https://github.com/kamilabartnik/terraformacja">GitHub</a></Button>
@@ -227,12 +227,12 @@ class Portfolio extends Component {
         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff', height: '176px',
-            background: 'url(https://i.udemycdn.com/course/750x422/792484_cc98_3.jpg) center / cover'
+            background: 'url(https://github.com/kamilabartnik/cv/blob/master/src/assets/htmlcss.jpg?raw=true) center / cover'
           }}>
             Kamila Bartnik CV
           </CardTitle>
           <CardText>
-            Former CV.
+            Former CV made using basic HTML and CSS showing few projects.
           </CardText>
           <CardActions border>
             <Button colored><a href="https://github.com/kamilabartnik/kamilabartnik.github.io">GitHub</a></Button>
