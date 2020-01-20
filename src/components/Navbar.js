@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <div className="navigation-content">
-      <Layout className="navigation">
-  <Header className="navigation header" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Kamila Bartnik Resume</Link>} scroll>
+      <Layout className="navigation" fixedHeader="true" waterfall="true">
+  <Header className="navigation header" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"></Link>} scroll>
           <Navigation className="navigation bar">
             <a className="navigation bar a" href="/cv/">About Me</a>
             <a className="navigation bar a" href="/cv/#/myresume/">Resume</a>
@@ -17,12 +17,10 @@ function Navbar() {
             <a className="navigation bar a" href="/cv/#/contact/">Contact</a>
           </Navigation>
         </Header>
-        <Drawer 
-        // title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">About Me</Link>}
-        >
+        <Drawer>
           <Navigation>
             <a href="/cv/">About Me</a>
-            <a href="/cv/#/myresume/">Resume</a>
+            <a href="/cv/#/myresume/">Resume</a> 
             <a href="/cv/#/portfolio/">Potrfolio</a>
             <a href="/cv/#/contact/">Contact</a>
           </Navigation>
