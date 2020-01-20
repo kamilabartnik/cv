@@ -13,6 +13,23 @@
   justify-content: center;
 }
 
+@media (max-width: 1000px) {
+  .category-tabs {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    padding-top: 35px;
+    margin-bottom: 60%;
+  }
+  .mdl-card {
+    margin-bottom: 60%;
+  }
+  .projects-grid{
+    padding: 0px;
+    display: inline-block;
+  }
+}
+
 @media (max-width: 500px) {
   .category-tabs {
     text-align: center;
