@@ -34,7 +34,7 @@ class Contact extends Component {
                   <ListItemContent className="contact-list__list-item" icon="mail">kbartnik@g.pl</ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent className="contact-list__list-item" icon="linkedin"><a href="https://www.linkedin.com/in/kamila-bartnik-01667a18/" target="_blank" style={{textDecoration:'none', color: 'black'}}>LinkedIn</a> </ListItemContent>
+                  <ListItemContent className="contact-list__list-item" icon="linkedin"><a href="https://www.linkedin.com/in/kamila-bartnik-01667a18/" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color: 'black'}}>LinkedIn</a> </ListItemContent>
                 </ListItem>
               </List>
             </div>
